@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto', sans-serif;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+a,h2{
+    color: rgb(235, 231, 231);
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 100px;
+    background-color: rgb(15, 12, 12);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem;
+    justify-content: space-between;
+    cursor: pointer;
+    
+    
+     > img{
+        height: 110%;
+    }
+    > div {
+        
+        width: 100%;
+
+    > a{
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.459);
+            margin: 3vmax;
+            &:hover{
+                color: rgba(248, 242, 242, 0.071);
+            }
+        }
+    }
+    > svg{
+        cursor: pointer;
+        font-size: 2rem;
+        margin: 2vmax;
+        color: rgba(255, 255, 255, 0.763);
+        &:hover{
+            color: rgba(69, 65, 65, 0.801);
+        }
+    }
+}
+
+
+
