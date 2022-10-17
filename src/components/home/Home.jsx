@@ -52,7 +52,7 @@ const Home = () => {
       };
 
   const fetpopular = async()=>{
-    const {data: {results}} = await axios.get(`${url}/movie/${popular}?api_key=${apikey}&page=1`)
+    const {data: {results}} = await axios.get(`${url}/movie/${popular}?api_key=${apikey}&page=2`)
     setpopularmovies(results)
       };
 
